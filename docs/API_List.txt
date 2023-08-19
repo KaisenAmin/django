@@ -1,0 +1,19 @@
+User Registration:
+    POST /api/register: Register a new user with phone number verification via SMS.
+
+Authentication:
+    POST /api/login: Authenticate a user and generate an access token.
+    POST /api/logout: Log out the currently authenticated user.
+    POST /api/password/reset: Request a password reset email.
+    POST /api/password/reset/confirm: Confirm and process a password reset request.
+
+User Profile:
+    GET /api/profile: Get the current user's profile information.
+    PUT /api/profile: Update the current user's profile information.
+
+Packages:
+    GET /api/packages: Retrieve a list of packages.
+    GET /api/packages/{id}: Retrieve a specific post by ID.
+    POST /api/packages: Create a new post.
+    PUT /api/packages/{id}: Update a specific post by ID.
+    DELETE /api/packages/{id}: Delete a specific post by ID.
